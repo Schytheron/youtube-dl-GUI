@@ -45,7 +45,7 @@
             // 
             // URLTextBox
             // 
-            this.URLTextBox.Location = new System.Drawing.Point(121, 65);
+            this.URLTextBox.Location = new System.Drawing.Point(121, 56);
             this.URLTextBox.Name = "URLTextBox";
             this.URLTextBox.Size = new System.Drawing.Size(280, 20);
             this.URLTextBox.TabIndex = 0;
@@ -54,7 +54,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(118, 47);
+            this.label1.Location = new System.Drawing.Point(118, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(118, 15);
             this.label1.TabIndex = 1;
@@ -66,9 +66,8 @@
             this.FPSDropDown.FormattingEnabled = true;
             this.FPSDropDown.Items.AddRange(new object[] {
             "30",
-            "50",
             "60"});
-            this.FPSDropDown.Location = new System.Drawing.Point(356, 190);
+            this.FPSDropDown.Location = new System.Drawing.Point(356, 181);
             this.FPSDropDown.Name = "FPSDropDown";
             this.FPSDropDown.Size = new System.Drawing.Size(45, 21);
             this.FPSDropDown.TabIndex = 2;
@@ -76,7 +75,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(356, 171);
+            this.label2.Location = new System.Drawing.Point(356, 162);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(27, 13);
             this.label2.TabIndex = 3;
@@ -96,7 +95,7 @@
             "1440p",
             "2160p (4K)",
             "4320p (8K)"});
-            this.QualityDropDown.Location = new System.Drawing.Point(121, 190);
+            this.QualityDropDown.Location = new System.Drawing.Point(121, 181);
             this.QualityDropDown.Name = "QualityDropDown";
             this.QualityDropDown.Size = new System.Drawing.Size(80, 21);
             this.QualityDropDown.TabIndex = 4;
@@ -104,7 +103,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(118, 174);
+            this.label3.Location = new System.Drawing.Point(118, 165);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 13);
             this.label3.TabIndex = 5;
@@ -112,7 +111,7 @@
             // 
             // DownloadButton
             // 
-            this.DownloadButton.Location = new System.Drawing.Point(161, 254);
+            this.DownloadButton.Location = new System.Drawing.Point(161, 245);
             this.DownloadButton.Name = "DownloadButton";
             this.DownloadButton.Size = new System.Drawing.Size(75, 23);
             this.DownloadButton.TabIndex = 6;
@@ -122,7 +121,7 @@
             // 
             // selectFolderButton
             // 
-            this.selectFolderButton.Location = new System.Drawing.Point(374, 125);
+            this.selectFolderButton.Location = new System.Drawing.Point(374, 116);
             this.selectFolderButton.Name = "selectFolderButton";
             this.selectFolderButton.Size = new System.Drawing.Size(27, 23);
             this.selectFolderButton.TabIndex = 7;
@@ -133,7 +132,7 @@
             // downloadPathTxtBox
             // 
             this.downloadPathTxtBox.BackColor = System.Drawing.SystemColors.Window;
-            this.downloadPathTxtBox.Location = new System.Drawing.Point(121, 127);
+            this.downloadPathTxtBox.Location = new System.Drawing.Point(121, 118);
             this.downloadPathTxtBox.Name = "downloadPathTxtBox";
             this.downloadPathTxtBox.ReadOnly = true;
             this.downloadPathTxtBox.Size = new System.Drawing.Size(247, 20);
@@ -142,7 +141,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(121, 108);
+            this.label4.Location = new System.Drawing.Point(121, 99);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(82, 13);
             this.label4.TabIndex = 9;
@@ -154,7 +153,7 @@
             // 
             // UpdateButton
             // 
-            this.UpdateButton.Location = new System.Drawing.Point(271, 254);
+            this.UpdateButton.Location = new System.Drawing.Point(271, 245);
             this.UpdateButton.Name = "UpdateButton";
             this.UpdateButton.Size = new System.Drawing.Size(75, 23);
             this.UpdateButton.TabIndex = 10;
@@ -166,7 +165,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(519, 324);
+            this.ClientSize = new System.Drawing.Size(519, 306);
             this.Controls.Add(this.UpdateButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.downloadPathTxtBox);
